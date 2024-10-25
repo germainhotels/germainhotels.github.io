@@ -1,0 +1,51 @@
+html{
+    background-color: #0069b4;
+}    
+
+#header{
+  display: none;
+}
+
+#logo{
+    display: none;
+  }
+
+.wufoo input.text{
+  width:93%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #000;
+}
+
+.wufoo ul{
+  list-style: none;
+}
+
+.wufoo label.desc{
+  font-weight: bold;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 14px !important;
+}
+
+.wufoo legend{
+  display: none;
+}
+
+.wufoo li.focused{
+    background-color: #fff !important;
+}
+
+#saveForm {
+  width: 100%;
+  background-color: #0069b4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#saveForm:hover {
+  background-color: #46a8eb;
+}
