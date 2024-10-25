@@ -1,5 +1,5 @@
 html{
-    background-color: #0069b4;
+    background-color: transparent;
 }    
 
 #header{
@@ -11,10 +11,13 @@ html{
   }
 
 .wufoo input.text{
-  width:93%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  background-color: #000;
+    width:100%;
+    padding: 20px;
+    margin: 8px 0;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 2px;
 }
 
 .wufoo ul{
